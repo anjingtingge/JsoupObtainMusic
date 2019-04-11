@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.jsoup:jsoup:1.9.2'
+
+    // https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit
+    implementation group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.27'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
