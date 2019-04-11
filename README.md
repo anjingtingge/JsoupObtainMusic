@@ -1,0 +1,2 @@
+# JsoupObtainMusic
+通过jsoup获取网页数据，先在lib中通过Htmlunit获取javascript动态生成的数据（普通jsoup获取不到），再将此数据在项目中通过jsoup解析，并生成本地数据库
